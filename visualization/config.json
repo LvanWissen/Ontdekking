@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Leon van Wissen",
+    "file": "images/vulogo.png",
+    "link": "https://github.com/LvanWissen/Ontdekking/"
+  },
+  "text": {
+    "title": "Analyzing the encyclopaedic novel: 'The Discovery of Heaven' featured in disciplines.",
+    "more": "Shown are: Anthropology, Archaeology, Biology, Chemistry, Culinary arts, Economics, Geography, Health, History, Law, Mathematics, Musicology, Philology, Philosophy, Physics, Psychology, Religion, Sports",
+    "intro": "In this graph entities occuring in the analyzed novel are shown. They are extracted by the DBpedia Spotlight extractor. For every entity, a discipline (academic) is tried to be found within the DBpedia articles and categories. The larger dots in various colours represent these disciplines. The graph is interactive. "
+  },
+  "legend": {
+    "edgeLabel": "",
+    "colorLabel": "Discipline",
+    "nodeLabel": "DBpedia category"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": true,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
