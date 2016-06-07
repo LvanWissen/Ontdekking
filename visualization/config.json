@@ -10,7 +10,7 @@
   "text": {
     "title": "Analyzing the encyclopaedic novel: 'The Discovery of Heaven' featured in disciplines.",
     "more": "Shown are: Anthropology, Archaeology, Biology, Chemistry, Culinary arts, Economics, Geography, Health, History, Law, Mathematics, Musicology, Philology, Philosophy, Physics, Psychology, Religion, Sports",
-    "intro": "In this graph entities occuring in the analyzed novel are shown. They are extracted by the DBpedia Spotlight extractor. For every entity, a discipline (academic) is tried to be found within the DBpedia articles and categories. The larger dots in various colours represent these disciplines. The graph is interactive. "
+    "intro": "In this graph entities occuring in the analyzed novel are shown. They are extracted by the DBpedia Spotlight extractor. For every entity, a discipline (academic) is tried to be found within DBpedia articles and categories. The larger dots in various colours represent these disciplines. The graph is interactive. </br></br> More information is found on the project's <a href='https://github.com/LvanWissen/Ontdekking'>GitHub</a> or in the <a href='http://www.dhbenelux.org/wp-content/uploads/2016/05/39_Van_Wissen_Van_Erp_Peperkamp_FinalAbstract_DHBenelux2016_short.pdf'>abstract</a> that was presented at the DHBenelux2016 conference."
   },
   "legend": {
     "edgeLabel": "",

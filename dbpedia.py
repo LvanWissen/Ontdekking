@@ -3,7 +3,7 @@ import pickle
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 def getEnglishURI(URI):
-    """Nederlandse URI erin, Engelse (algemene) eruit."""
+    """Find an English URI from one from another language."""
 
     global EN_URIdict
 
